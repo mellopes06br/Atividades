@@ -1,11 +1,41 @@
-* {
-    margin: 0;
-    padding:0;
-}
+
 
 body {
     height: 100vh;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.header{
+    border-style: solid;
+    border-color: rgb(255, 0, 0);
+    border-width: 4px;
+}
+.nav {
+    border: palevioletred solid 4px;
 
+}
 
+.main {
+    border: blue solid 4px;
+
+}
+.article {
+    border: purple 4px solid;
+    width: 69%;
+    float: left;
+}
+.section {
+    border: pink 4px solid;
+}
+.aside{
+    float: right;
+    width: 30%;
+    border: rgb(253, 125, 78) solid 4px;
+}
+.footer {
+    text-align: center;
+    border: yellow solid 4px;
+    font-weight: bold;
 }
